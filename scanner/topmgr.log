@@ -1,0 +1,190 @@
+[2016-07-07 18:11:35] [INFO] mgr startting...
+[2016-07-07 18:11:35] [INFO] wait connection
+[2016-07-07 18:12:01] [INFO] get a connection from:('127.0.0.1', 52198),headers:{'action': 'start', 'task_ids': '4', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-07 18:12:01] [DEBUG] ------------task start------------
+[2016-07-07 18:12:01] [INFO] SCAN_MODULE start a new task,task_id:4,pid:7500
+[2016-07-07 18:15:38] [INFO] get a connection from:('127.0.0.1', 52742),headers:{'action': 'stop', 'task_ids': '4', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-07 18:15:38] [DEBUG] ------------task stop------------
+[2016-07-07 18:15:38] [INFO] SCAN_MODULE stop a new task,task_id:4,pid:7500
+[2016-07-07 18:16:10] [INFO] get a connection from:('127.0.0.1', 52770),headers:{'action': 'start', 'task_ids': '5', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-07 18:16:10] [DEBUG] ------------task start------------
+[2016-07-07 18:16:10] [INFO] SCAN_MODULE start a new task,task_id:5,pid:4340
+[2016-07-07 18:24:39] [INFO] get a connection from:('127.0.0.1', 54100),headers:{'action': 'start', 'task_ids': '6', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-07 18:24:39] [DEBUG] ------------task start------------
+[2016-07-07 18:24:39] [INFO] SCAN_MODULE start a new task,task_id:6,pid:8880
+[2016-07-07 18:35:25] [INFO] get a connection from:('127.0.0.1', 56343),headers:{'action': 'stop', 'task_ids': '5', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-07 18:35:25] [DEBUG] ------------task stop------------
+[2016-07-07 18:35:25] [INFO] SCAN_MODULE stop a new task,task_id:5,pid:4340
+[2016-07-07 18:35:30] [INFO] get a connection from:('127.0.0.1', 56351),headers:{'action': 'stop', 'task_ids': '6', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-07 18:35:30] [DEBUG] ------------task stop------------
+[2016-07-07 18:35:30] [INFO] SCAN_MODULE stop a new task,task_id:6,pid:8880
+[2016-07-07 18:35:57] [INFO] get a connection from:('127.0.0.1', 56391),headers:{'action': 'start', 'task_ids': '6', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-07 18:35:57] [DEBUG] ------------task start------------
+[2016-07-07 18:35:57] [INFO] SCAN_MODULE start a new task,task_id:6,pid:8944
+[2016-07-07 19:20:50] [INFO] get a connection from:('127.0.0.1', 63578),headers:{'action': 'stop', 'task_ids': '6', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-07 19:20:50] [DEBUG] ------------task stop------------
+[2016-07-07 19:20:50] [INFO] SCAN_MODULE stop a new task,task_id:6,pid:8944
+[2016-07-08 10:11:52] [INFO] get a connection from:('127.0.0.1', 61275),headers:{'action': 'stop', 'task_ids': '8', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 10:11:52] [DEBUG] ------------task stop------------
+[2016-07-08 10:13:01] [INFO] get a connection from:('127.0.0.1', 61349),headers:{'action': 'start', 'task_ids': '9', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 10:13:01] [DEBUG] ------------task start------------
+[2016-07-08 10:13:01] [INFO] SCAN_MODULE start a new task,task_id:9,pid:4976
+[2016-07-08 13:51:37] [INFO] get a connection from:('127.0.0.1', 52742),headers:{'action': 'stop', 'task_ids': '9', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 13:51:37] [DEBUG] ------------task stop------------
+[2016-07-08 13:51:37] [INFO] SCAN_MODULE stop a new task,task_id:9,pid:4976
+[2016-07-08 15:18:27] [INFO] get a connection from:('127.0.0.1', 56184),headers:{'action': 'continue_start', 'task_ids': '7', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 15:18:27] [DEBUG] ------------task start------------
+[2016-07-08 15:18:27] [INFO] SCAN_MODULE start a new task,task_id:7,pid:8408
+[2016-07-08 17:48:06] [INFO] get a connection from:('127.0.0.1', 60821),headers:{'action': 'stop', 'task_ids': '7', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 17:48:06] [DEBUG] ------------task stop------------
+[2016-07-08 17:48:06] [INFO] SCAN_MODULE stop a new task,task_id:7,pid:8408
+[2016-07-08 17:48:59] [INFO] get a connection from:('127.0.0.1', 60859),headers:{'action': 'start', 'task_ids': '10', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 17:48:59] [DEBUG] ------------task start------------
+[2016-07-08 17:48:59] [INFO] SCAN_MODULE start a new task,task_id:10,pid:8216
+[2016-07-08 18:07:52] [INFO] get a connection from:('127.0.0.1', 64292),headers:{'action': 'stop', 'task_ids': '10', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 18:07:52] [DEBUG] ------------task stop------------
+[2016-07-08 18:07:52] [INFO] SCAN_MODULE stop a new task,task_id:10,pid:8216
+[2016-07-08 18:22:29] [INFO] mgr startting...
+[2016-07-08 18:22:29] [INFO] wait connection
+[2016-07-08 18:28:11] [INFO] get a connection from:('127.0.0.1', 65215),headers:{'action': 'start', 'task_ids': '10', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 18:28:11] [DEBUG] ------------task start------------
+[2016-07-08 18:28:11] [INFO] SCAN_MODULE start a new task,task_id:10,pid:8780
+[2016-07-08 18:35:25] [INFO] get a connection from:('127.0.0.1', 49287),headers:{'action': 'stop', 'task_ids': '10', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 18:35:25] [DEBUG] ------------task stop------------
+[2016-07-08 18:35:25] [INFO] SCAN_MODULE stop a new task,task_id:10,pid:8780
+[2016-07-08 22:13:09] [INFO] get a connection from:('127.0.0.1', 54975),headers:{'action': 'start', 'task_ids': '10', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 22:13:09] [DEBUG] ------------task start------------
+[2016-07-08 22:13:09] [INFO] SCAN_MODULE start a new task,task_id:10,pid:2724
+[2016-07-08 22:45:01] [INFO] get a connection from:('127.0.0.1', 56341),headers:{'action': 'stop', 'task_ids': '10', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 22:45:01] [DEBUG] ------------task stop------------
+[2016-07-08 22:45:01] [INFO] SCAN_MODULE stop a new task,task_id:10,pid:2724
+[2016-07-08 22:45:17] [INFO] get a connection from:('127.0.0.1', 56371),headers:{'action': 'start', 'task_ids': '10', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 22:45:17] [DEBUG] ------------task start------------
+[2016-07-08 22:45:17] [INFO] SCAN_MODULE start a new task,task_id:10,pid:5552
+[2016-07-08 22:46:03] [INFO] get a connection from:('127.0.0.1', 56597),headers:{'action': 'stop', 'task_ids': '10', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 22:46:03] [DEBUG] ------------task stop------------
+[2016-07-08 22:46:03] [INFO] SCAN_MODULE stop a new task,task_id:10,pid:5552
+[2016-07-08 22:46:51] [INFO] mgr stopping...
+[2016-07-08 22:48:18] [INFO] mgr startting...
+[2016-07-08 22:48:18] [INFO] wait connection
+[2016-07-08 22:49:26] [INFO] get a connection from:('127.0.0.1', 56813),headers:{'action': 'start', 'task_ids': '10', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 22:49:26] [DEBUG] ------------task start------------
+[2016-07-08 22:49:26] [INFO] SCAN_MODULE start a new task,task_id:10,pid:5576
+[2016-07-08 22:53:48] [INFO] get a connection from:('127.0.0.1', 57534),headers:{'action': 'stop', 'task_ids': '10', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 22:53:48] [DEBUG] ------------task stop------------
+[2016-07-08 22:53:48] [INFO] SCAN_MODULE stop a new task,task_id:10,pid:5576
+[2016-07-08 22:54:35] [INFO] get a connection from:('127.0.0.1', 57579),headers:{'action': 'start', 'task_ids': '11', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 22:54:35] [DEBUG] ------------task start------------
+[2016-07-08 22:54:35] [INFO] SCAN_MODULE start a new task,task_id:11,pid:7444
+[2016-07-08 23:15:58] [INFO] get a connection from:('127.0.0.1', 61823),headers:{'action': 'stop', 'task_ids': '11', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 23:15:58] [DEBUG] ------------task stop------------
+[2016-07-08 23:15:58] [INFO] SCAN_MODULE stop a new task,task_id:11,pid:7444
+[2016-07-08 23:23:25] [INFO] mgr startting...
+[2016-07-08 23:23:25] [INFO] wait connection
+[2016-07-08 23:24:03] [INFO] get a connection from:('127.0.0.1', 62151),headers:{'action': 'start', 'task_ids': '11', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 23:24:03] [DEBUG] ------------task start------------
+[2016-07-08 23:24:03] [INFO] SCAN_MODULE start a new task,task_id:11,pid:4132
+[2016-07-08 23:39:59] [INFO] get a connection from:('127.0.0.1', 64829),headers:{'action': 'stop', 'task_ids': '11', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 23:39:59] [DEBUG] ------------task stop------------
+[2016-07-08 23:39:59] [INFO] SCAN_MODULE stop a new task,task_id:11,pid:4132
+[2016-07-08 23:40:16] [INFO] get a connection from:('127.0.0.1', 64977),headers:{'action': 'start', 'task_ids': '11', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 23:40:16] [DEBUG] ------------task start------------
+[2016-07-08 23:40:16] [INFO] SCAN_MODULE start a new task,task_id:11,pid:7016
+[2016-07-08 23:41:41] [INFO] get a connection from:('127.0.0.1', 65137),headers:{'action': 'stop', 'task_ids': '11', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 23:41:41] [DEBUG] ------------task stop------------
+[2016-07-08 23:41:41] [INFO] SCAN_MODULE stop a new task,task_id:11,pid:7016
+[2016-07-08 23:54:18] [INFO] mgr startting...
+[2016-07-08 23:54:18] [INFO] wait connection
+[2016-07-08 23:54:32] [INFO] get a connection from:('127.0.0.1', 49260),headers:{'action': 'start', 'task_ids': '11', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 23:54:32] [DEBUG] ------------task start------------
+[2016-07-08 23:54:32] [INFO] SCAN_MODULE start a new task,task_id:11,pid:8928
+[2016-07-08 23:58:01] [INFO] get a connection from:('127.0.0.1', 49643),headers:{'action': 'stop', 'task_ids': '11', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 23:58:01] [DEBUG] ------------task stop------------
+[2016-07-08 23:58:01] [INFO] SCAN_MODULE stop a new task,task_id:11,pid:8928
+[2016-07-08 23:58:04] [INFO] get a connection from:('127.0.0.1', 49654),headers:{'action': 'start', 'task_ids': '10', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-08 23:58:04] [DEBUG] ------------task start------------
+[2016-07-08 23:58:04] [INFO] SCAN_MODULE start a new task,task_id:10,pid:2528
+[2016-07-09 08:30:57] [INFO] get a connection from:('127.0.0.1', 50243),headers:{'action': 'stop', 'task_ids': '10', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-09 08:30:57] [DEBUG] ------------task stop------------
+[2016-07-09 08:30:57] [INFO] SCAN_MODULE stop a new task,task_id:10,pid:2528
+[2016-07-09 08:31:55] [INFO] get a connection from:('127.0.0.1', 50280),headers:{'action': 'start', 'task_ids': '7', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-09 08:31:55] [DEBUG] ------------task start------------
+[2016-07-09 08:31:55] [INFO] SCAN_MODULE start a new task,task_id:7,pid:3168
+[2016-07-09 09:08:32] [INFO] get a connection from:('127.0.0.1', 53127),headers:{'action': 'start', 'task_ids': '7', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-09 09:08:32] [DEBUG] ------------task start------------
+[2016-07-09 09:11:36] [INFO] get a connection from:('127.0.0.1', 53538),headers:{'action': 'stop', 'task_ids': '7', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-09 09:11:36] [DEBUG] ------------task stop------------
+[2016-07-09 09:11:36] [INFO] SCAN_MODULE stop a new task,task_id:7,pid:3168
+[2016-07-09 09:33:21] [INFO] mgr startting...
+[2016-07-09 09:33:21] [INFO] wait connection
+[2016-07-09 09:34:19] [INFO] get a connection from:('127.0.0.1', 54214),headers:{'action': 'start', 'task_ids': '7', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-09 09:34:19] [DEBUG] ------------task start------------
+[2016-07-09 09:34:19] [INFO] SCAN_MODULE start a new task,task_id:7,pid:7788
+[2016-07-09 09:35:42] [INFO] mgr startting...
+[2016-07-09 09:35:42] [INFO] wait connection
+[2016-07-09 09:35:56] [INFO] get a connection from:('127.0.0.1', 54258),headers:{'action': 'stop', 'task_ids': '7', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-09 09:35:56] [DEBUG] ------------task stop------------
+[2016-07-09 09:36:02] [INFO] get a connection from:('127.0.0.1', 54267),headers:{'action': 'start', 'task_ids': '7', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-09 09:36:02] [DEBUG] ------------task start------------
+[2016-07-09 09:36:02] [INFO] SCAN_MODULE start a new task,task_id:7,pid:7872
+[2016-07-09 09:46:14] [INFO] get a connection from:('127.0.0.1', 56194),headers:{'action': 'start', 'task_ids': '7', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-09 09:46:14] [DEBUG] ------------task start------------
+[2016-07-09 09:48:58] [INFO] get a connection from:('127.0.0.1', 56607),headers:{'action': 'stop', 'task_ids': '7', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-09 09:48:58] [DEBUG] ------------task stop------------
+[2016-07-09 09:48:58] [INFO] SCAN_MODULE stop a new task,task_id:7,pid:7872
+[2016-07-09 09:49:07] [INFO] get a connection from:('127.0.0.1', 56660),headers:{'action': 'start', 'task_ids': '7', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-09 09:49:07] [DEBUG] ------------task start------------
+[2016-07-09 09:49:07] [INFO] SCAN_MODULE start a new task,task_id:7,pid:8876
+[2016-07-09 09:56:44] [INFO] get a connection from:('127.0.0.1', 58697),headers:{'action': 'start', 'task_ids': '12', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-09 09:56:44] [DEBUG] ------------task start------------
+[2016-07-09 09:56:44] [INFO] SCAN_MODULE start a new task,task_id:12,pid:1960
+[2016-07-09 10:08:52] [INFO] get a connection from:('127.0.0.1', 49296),headers:{'action': 'start', 'task_ids': '12', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-09 10:08:52] [DEBUG] ------------task start------------
+[2016-07-09 10:09:16] [INFO] get a connection from:('127.0.0.1', 49313),headers:{'action': 'stop', 'task_ids': '12', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-09 10:09:16] [DEBUG] ------------task stop------------
+[2016-07-09 10:09:16] [INFO] SCAN_MODULE stop a new task,task_id:12,pid:1960
+[2016-07-09 10:09:25] [INFO] get a connection from:('127.0.0.1', 49356),headers:{'action': 'start', 'task_ids': '12', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-09 10:09:25] [DEBUG] ------------task start------------
+[2016-07-09 10:09:25] [INFO] SCAN_MODULE start a new task,task_id:12,pid:6448
+[2016-07-10 00:03:09] [INFO] mgr startting...
+[2016-07-10 00:03:09] [INFO] wait connection
+[2016-07-10 00:03:21] [INFO] get a connection from:('127.0.0.1', 59510),headers:{'action': 'start', 'task_ids': '7', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-10 00:03:21] [DEBUG] ------------task start------------
+[2016-07-10 00:03:21] [INFO] SCAN_MODULE start a new task,task_id:7,pid:5660
+[2016-07-10 08:10:09] [INFO] get a connection from:('127.0.0.1', 51256),headers:{'action': 'start', 'task_ids': '12', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-10 08:10:09] [DEBUG] ------------task start------------
+[2016-07-10 08:10:09] [INFO] SCAN_MODULE start a new task,task_id:12,pid:6376
+[2016-07-10 09:18:18] [INFO] get a connection from:('127.0.0.1', 53468),headers:{'action': 'stop', 'task_ids': '12', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-10 09:18:18] [DEBUG] ------------task stop------------
+[2016-07-10 09:18:18] [INFO] SCAN_MODULE stop a new task,task_id:12,pid:6376
+[2016-07-11 10:38:01] [INFO] mgr startting...
+[2016-07-11 10:38:01] [INFO] wait connection
+[2016-07-11 10:42:35] [INFO] get a connection from:('127.0.0.1', 49278),headers:{'action': 'start', 'task_ids': '13', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-11 10:42:35] [DEBUG] ------------task start------------
+[2016-07-11 10:42:35] [INFO] SCAN_MODULE start a new task,task_id:13,pid:5408
+[2016-07-11 11:24:29] [INFO] get a connection from:('127.0.0.1', 51625),headers:{'action': 'start', 'task_ids': '3', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-11 11:24:29] [DEBUG] ------------task start------------
+[2016-07-11 11:24:29] [INFO] SCAN_MODULE start a new task,task_id:3,pid:1648
+[2016-07-11 18:25:51] [INFO] get a connection from:('127.0.0.1', 64615),headers:{'action': 'start', 'task_ids': '14', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-11 18:25:51] [DEBUG] ------------task start------------
+[2016-07-11 18:25:51] [INFO] SCAN_MODULE start a new task,task_id:14,pid:9384
+[2016-07-13 11:38:49] [INFO] mgr startting...
+[2016-07-13 11:38:49] [INFO] wait connection
+[2016-07-13 12:44:54] [INFO] get a connection from:('127.0.0.1', 52625),headers:{'action': 'start', 'task_ids': '15', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-13 12:44:54] [DEBUG] ------------task start------------
+[2016-07-13 12:44:54] [INFO] SCAN_MODULE start a new task,task_id:15,pid:9200
+[2016-07-13 13:32:32] [INFO] mgr startting...
+[2016-07-13 13:32:32] [INFO] wait connection
+[2016-07-13 13:32:46] [INFO] get a connection from:('127.0.0.1', 58266),headers:{'action': 'stop', 'task_ids': '15', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-13 13:32:46] [DEBUG] ------------task stop------------
+[2016-07-13 13:32:53] [INFO] get a connection from:('127.0.0.1', 58293),headers:{'action': 'start', 'task_ids': '15', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-13 13:32:53] [DEBUG] ------------task start------------
+[2016-07-13 13:32:53] [INFO] SCAN_MODULE start a new task,task_id:15,pid:4328
+[2016-07-14 16:01:39] [INFO] get a connection from:('127.0.0.1', 62673),headers:{'action': 'start', 'task_ids': '15', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-14 16:01:39] [DEBUG] ------------task start------------
+[2016-07-14 16:02:47] [INFO] get a connection from:('127.0.0.1', 62836),headers:{'action': 'stop', 'task_ids': '15', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-14 16:02:47] [DEBUG] ------------task stop------------
+[2016-07-14 16:02:47] [INFO] SCAN_MODULE stop a new task,task_id:15,pid:4328
+[2016-07-14 16:02:57] [INFO] get a connection from:('127.0.0.1', 62863),headers:{'action': 'start', 'task_ids': '15', 'module': 'SCAN_MODULE', 'signature': 'f24f161cb06c9df1f33b5772e52dd194'}
+[2016-07-14 16:02:57] [DEBUG] ------------task start------------
+[2016-07-14 16:02:57] [INFO] SCAN_MODULE start a new task,task_id:15,pid:9560

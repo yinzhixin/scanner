@@ -1,0 +1,158 @@
+[2016-07-11 10:42:35] [DEBUG] ScanEngine start
+[2016-07-11 10:42:35] [DEBUG] scheduleUrl start
+[2016-07-11 10:42:35] [DEBUG] CrawlEngine start
+[2016-07-11 10:42:35] [DEBUG] Schedule start
+[2016-07-11 10:42:35] [DEBUG] scheduleDomain start
+[2016-07-11 10:42:35] [DEBUG] rule_id:5 filename:robots_leak run_domain start
+[2016-07-11 10:42:35] [DEBUG] rule_id:5 filename:robots_leak run_domain end
+[2016-07-11 10:42:35] [DEBUG] rule_id:6 filename:phpmyadmin_leak run_domain start
+[2016-07-11 10:42:35] [DEBUG] rule_id:6 filename:phpmyadmin_leak run_domain end
+[2016-07-11 10:42:35] [DEBUG] scheduleDomain end
+[2016-07-11 10:42:36] [DEBUG] Schedule end,stop:False,now urlcount:0,:pool size:0,pendings size:0
+[2016-07-11 10:42:36] [DEBUG] CrawlEngine end
+[2016-07-11 10:42:36] [DEBUG] rule_id:1 filename:sql_inject run_url start
+[2016-07-11 10:42:36] [DEBUG] rule_id:1 filename:sql_inject run_url end
+[2016-07-11 10:42:36] [DEBUG] rule_id:2 filename:xss run_url start
+[2016-07-11 10:42:36] [DEBUG] rule_id:2 filename:xss run_url end
+[2016-07-11 10:42:36] [DEBUG] rule_id:4 filename:file_upload run_url start
+[2016-07-11 10:42:36] [DEBUG] rule_id:4 filename:file_upload run_url end
+[2016-07-11 10:42:36] [DEBUG] rule_id:3 filename:webshell_check run_url start
+[2016-07-11 10:42:36] [DEBUG] rule_id:3 filename:webshell_check run_url end
+[2016-07-11 10:42:36] [DEBUG] rule_id:7 filename:inter_ip_leak run_url start
+[2016-07-11 10:42:36] [DEBUG] rule_id:7 filename:inter_ip_leak run_url end
+[2016-07-11 10:42:36] [DEBUG] scheduleUrl end
+[2016-07-11 10:43:09] [DEBUG] ScanEngine end
+[2016-07-11 10:43:09] [INFO] Scan finished!
+[2016-07-11 11:24:30] [DEBUG] ScanEngine start
+[2016-07-11 11:24:30] [DEBUG] scheduleUrl start
+[2016-07-11 11:24:30] [DEBUG] CrawlEngine start
+[2016-07-11 11:24:30] [DEBUG] Schedule start
+[2016-07-11 11:24:30] [DEBUG] scheduleDomain start
+[2016-07-11 11:24:30] [DEBUG] rule_id:5 filename:robots_leak run_domain start
+[2016-07-11 11:24:30] [DEBUG] rule_id:5 filename:robots_leak run_domain end
+[2016-07-11 11:24:30] [DEBUG] rule_id:6 filename:phpmyadmin_leak run_domain start
+[2016-07-11 11:24:30] [DEBUG] rule_id:6 filename:phpmyadmin_leak run_domain end
+[2016-07-11 11:24:30] [DEBUG] scheduleDomain end
+[2016-07-11 11:24:30] [DEBUG] now urlcount:10,kill pool start
+[2016-07-11 11:24:30] [DEBUG] Schedule end,stop:True,now urlcount:10,:pool size:4,pendings size:8
+[2016-07-11 11:24:30] [DEBUG] CrawlEngine end
+[2016-07-11 11:24:30] [DEBUG] rule_id:1 filename:sql_inject run_url start
+[2016-07-11 11:24:31] [DEBUG] rule_id:1 filename:sql_inject run_url end
+[2016-07-11 11:24:31] [DEBUG] rule_id:2 filename:xss run_url start
+[2016-07-11 11:24:31] [DEBUG] rule_id:2 filename:xss run_url end
+[2016-07-11 11:24:31] [DEBUG] rule_id:4 filename:file_upload run_url start
+[2016-07-11 11:24:31] [DEBUG] rule_id:4 filename:file_upload run_url end
+[2016-07-11 11:24:31] [DEBUG] rule_id:3 filename:webshell_check run_url start
+[2016-07-11 11:24:32] [DEBUG] rule_id:3 filename:webshell_check run_url end
+[2016-07-11 11:24:32] [DEBUG] rule_id:7 filename:inter_ip_leak run_url start
+[2016-07-11 11:24:32] [DEBUG] "<...>", inside tag, some filtering
+[2016-07-11 11:24:32] [ERROR] analyse_result exception,rule_id:2
+Traceback (most recent call last):
+  File "D:\mycode\leakScan-master\scanner\lib\core\engine.py", line 104, in runUrl
+    self.analyse_result(rule_id, risk, result, req.url)
+  File "D:\mycode\leakScan-master\scanner\lib\core\engine.py", line 153, in analyse_result
+    db.execute(sql,*data)
+  File "D:\mycode\leakScan-master\scanner\lib\util\torndb.py", line 160, in execute
+    return self.execute_lastrowid(query, *parameters, **kwparameters)
+  File "D:\mycode\leakScan-master\scanner\lib\util\torndb.py", line 166, in execute_lastrowid
+    self._execute(cursor, query, parameters, kwparameters)
+  File "D:\mycode\leakScan-master\scanner\lib\util\torndb.py", line 234, in _execute
+    return cursor.execute(query, kwparameters or parameters)
+  File "C:\Python27\lib\site-packages\MySQLdb\cursors.py", line 174, in execute
+    self.errorhandler(self, exc, value)
+  File "C:\Python27\lib\site-packages\MySQLdb\connections.py", line 36, in defaulterrorhandler
+    raise errorclass, errorvalue
+DataError: (1406, "Data too long for column 'url' at row 1")
+
+[2016-07-11 11:24:33] [DEBUG] rule_id:7 filename:inter_ip_leak run_url end
+[2016-07-11 11:24:33] [DEBUG] scheduleUrl end
+[2016-07-11 11:28:34] [DEBUG] ScanEngine end
+[2016-07-11 11:28:34] [INFO] Scan finished!
+[2016-07-11 18:25:52] [DEBUG] ScanEngine start
+[2016-07-11 18:25:52] [DEBUG] scheduleUrl start
+[2016-07-11 18:25:52] [DEBUG] CrawlEngine start
+[2016-07-11 18:25:52] [DEBUG] Schedule start
+[2016-07-11 18:25:52] [DEBUG] scheduleDomain start
+[2016-07-11 18:25:52] [DEBUG] rule_id:5 filename:robots_leak run_domain start
+[2016-07-11 18:25:52] [DEBUG] rule_id:5 filename:robots_leak run_domain end
+[2016-07-11 18:25:52] [DEBUG] rule_id:6 filename:phpmyadmin_leak run_domain start
+[2016-07-11 18:25:52] [DEBUG] rule_id:6 filename:phpmyadmin_leak run_domain end
+[2016-07-11 18:25:52] [DEBUG] scheduleDomain end
+[2016-07-11 18:25:58] [DEBUG] Schedule end,stop:False,now urlcount:0,:pool size:0,pendings size:0
+[2016-07-11 18:25:58] [DEBUG] CrawlEngine end
+[2016-07-11 18:25:58] [DEBUG] rule_id:1 filename:sql_inject run_url start
+[2016-07-11 18:25:59] [DEBUG] rule_id:1 filename:sql_inject run_url end
+[2016-07-11 18:25:59] [DEBUG] rule_id:2 filename:xss run_url start
+[2016-07-11 18:25:59] [DEBUG] rule_id:2 filename:xss run_url end
+[2016-07-11 18:25:59] [DEBUG] rule_id:4 filename:file_upload run_url start
+[2016-07-11 18:26:01] [DEBUG] rule_id:4 filename:file_upload run_url end
+[2016-07-11 18:26:01] [DEBUG] rule_id:3 filename:webshell_check run_url start
+[2016-07-11 18:26:01] [DEBUG] rule_id:3 filename:webshell_check run_url end
+[2016-07-11 18:26:01] [DEBUG] rule_id:7 filename:inter_ip_leak run_url start
+[2016-07-11 18:26:04] [DEBUG] rule_id:7 filename:inter_ip_leak run_url end
+[2016-07-11 18:26:04] [DEBUG] scheduleUrl end
+[2016-07-11 18:27:18] [DEBUG] ScanEngine end
+[2016-07-11 18:27:18] [INFO] Scan finished!
+[2016-07-13 12:44:54] [ERROR] Exception occur,scan stop
+Traceback (most recent call last):
+  File "topscan.py", line 19, in main
+    init()
+  File "D:\mycode\leakScan-master\scanner\lib\core\option.py", line 120, in init
+    _mkcachedir()
+  File "D:\mycode\leakScan-master\scanner\lib\core\option.py", line 86, in _mkcachedir
+    mkdir(conf.requestCache)
+  File "D:\mycode\leakScan-master\scanner\lib\core\common.py", line 46, in mkdir
+    os.mkdir(path)
+WindowsError: [Error 267] : u'D:\\mycode\\leakScan-master\\scanner\\temp\\nj02-lbs-impala3.nj02.baidu.com:8081'
+
+[2016-07-13 12:44:54] [INFO] Scan finished!
+[2016-07-13 13:32:54] [DEBUG] ScanEngine start
+[2016-07-13 13:32:54] [DEBUG] scheduleUrl start
+[2016-07-13 13:32:54] [DEBUG] CrawlEngine start
+[2016-07-13 13:32:54] [DEBUG] Schedule start
+[2016-07-13 13:32:54] [DEBUG] scheduleDomain start
+[2016-07-13 13:32:54] [DEBUG] rule_id:5 filename:robots_leak run_domain start
+[2016-07-13 13:32:54] [DEBUG] rule_id:5 filename:robots_leak run_domain end
+[2016-07-13 13:32:54] [DEBUG] rule_id:6 filename:phpmyadmin_leak run_domain start
+[2016-07-13 13:32:54] [DEBUG] rule_id:6 filename:phpmyadmin_leak run_domain end
+[2016-07-13 13:32:54] [DEBUG] scheduleDomain end
+[2016-07-13 13:32:59] [DEBUG] Schedule end,stop:False,now urlcount:0,:pool size:0,pendings size:0
+[2016-07-13 13:32:59] [DEBUG] CrawlEngine end
+[2016-07-13 13:32:59] [DEBUG] rule_id:1 filename:sql_inject run_url start
+[2016-07-13 13:33:01] [DEBUG] rule_id:1 filename:sql_inject run_url end
+[2016-07-13 13:33:01] [DEBUG] rule_id:2 filename:xss run_url start
+[2016-07-13 13:33:02] [DEBUG] rule_id:2 filename:xss run_url end
+[2016-07-13 13:33:02] [DEBUG] rule_id:4 filename:file_upload run_url start
+[2016-07-13 13:33:10] [DEBUG] rule_id:4 filename:file_upload run_url end
+[2016-07-13 13:33:10] [DEBUG] rule_id:3 filename:webshell_check run_url start
+[2016-07-13 13:34:08] [DEBUG] rule_id:3 filename:webshell_check run_url end
+[2016-07-13 13:34:08] [DEBUG] rule_id:7 filename:inter_ip_leak run_url start
+[2016-07-13 13:34:15] [DEBUG] rule_id:7 filename:inter_ip_leak run_url end
+[2016-07-13 13:34:15] [DEBUG] scheduleUrl end
+[2016-07-13 13:34:21] [DEBUG] ScanEngine end
+[2016-07-13 13:34:21] [INFO] Scan finished!
+[2016-07-14 16:02:58] [DEBUG] ScanEngine start
+[2016-07-14 16:02:58] [DEBUG] scheduleUrl start
+[2016-07-14 16:02:58] [DEBUG] CrawlEngine start
+[2016-07-14 16:02:58] [DEBUG] Schedule start
+[2016-07-14 16:02:58] [DEBUG] scheduleDomain start
+[2016-07-14 16:02:58] [DEBUG] rule_id:5 filename:robots_leak run_domain start
+[2016-07-14 16:02:58] [DEBUG] rule_id:5 filename:robots_leak run_domain end
+[2016-07-14 16:02:58] [DEBUG] rule_id:6 filename:phpmyadmin_leak run_domain start
+[2016-07-14 16:02:59] [DEBUG] rule_id:6 filename:phpmyadmin_leak run_domain end
+[2016-07-14 16:02:59] [DEBUG] scheduleDomain end
+[2016-07-14 16:02:59] [DEBUG] Schedule end,stop:False,now urlcount:0,:pool size:0,pendings size:0
+[2016-07-14 16:02:59] [DEBUG] CrawlEngine end
+[2016-07-14 16:02:59] [DEBUG] rule_id:1 filename:sql_inject run_url start
+[2016-07-14 16:02:59] [DEBUG] rule_id:1 filename:sql_inject run_url end
+[2016-07-14 16:02:59] [DEBUG] rule_id:2 filename:xss run_url start
+[2016-07-14 16:02:59] [DEBUG] rule_id:2 filename:xss run_url end
+[2016-07-14 16:02:59] [DEBUG] rule_id:4 filename:file_upload run_url start
+[2016-07-14 16:02:59] [DEBUG] rule_id:4 filename:file_upload run_url end
+[2016-07-14 16:02:59] [DEBUG] rule_id:3 filename:webshell_check run_url start
+[2016-07-14 16:02:59] [DEBUG] rule_id:3 filename:webshell_check run_url end
+[2016-07-14 16:02:59] [DEBUG] rule_id:7 filename:inter_ip_leak run_url start
+[2016-07-14 16:02:59] [DEBUG] rule_id:7 filename:inter_ip_leak run_url end
+[2016-07-14 16:02:59] [DEBUG] scheduleUrl end
+[2016-07-14 16:03:10] [DEBUG] ScanEngine end
+[2016-07-14 16:03:10] [INFO] Scan finished!
