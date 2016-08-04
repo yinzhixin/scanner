@@ -4,7 +4,7 @@
 import os
 
 ################## mysql setting ##################
-MYSQL_HOST = "123.56.26.7"
+MYSQL_HOST = "xxxxxx"
 MYSQL_PORT = 3306
 MYSQL_USERNAME = "test"
 MYSQL_PASSWD = "test"
